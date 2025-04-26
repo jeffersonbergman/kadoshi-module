@@ -11,6 +11,7 @@ interface AccessEditModalProps {
   currentAccess: string;
   onSave: (value: string) => void;
   onClose: () => void;
+  
 }
 
 const accessOptions = [
